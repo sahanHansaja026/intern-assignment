@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15",
+        "price": 350000,
+        "rating": 4.8,
+        "image": "assets/images/iphone.jpeg",
+        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+    },
+    {
+        "id": 2,
+        "name": "Samsung S24",
+        "price": 280000,
+        "rating": 4.6,
+        "image": "assets/images/iphone.jpeg",
+        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+    },
+    {
+        "id": 3,
+        "name": "AirPods Pro",
+        "price": 65000,
+        "rating": 4.7,
+        "image": "assets/images/iphone.jpeg",
+        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+    },
+    {
+        "id": 4,
+        "name": "Apple Watch",
+        "price": 120000,
+        "rating": 4.5,
+        "image": "assets/images/iphone.jpeg",
+        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+    }
+]
