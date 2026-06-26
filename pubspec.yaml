@@ -32,6 +32,9 @@ flutter:
       - assets/images/Login.png
       - assets/images/iphone.jpeg
       - assets/images/profile.jpg
+      - assets/images/airpordpro.jpg
+      - assets/images/applewath.jpeg
+      - assets/images/samsung24.jpeg
       - assets/data/products.json
       - assets/data/profile.json
   

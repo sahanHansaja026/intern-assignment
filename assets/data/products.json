@@ -12,23 +12,23 @@
         "name": "Samsung S24",
         "price": 280000,
         "rating": 4.6,
-        "image": "assets/images/iphone.jpeg",
-        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+        "image": "assets/images/samsung24.jpeg",
+        "description": "Samsung Galaxy S24 offers a premium design, AI-powered features, excellent cameras, and a smooth AMOLED display."
     },
     {
         "id": 3,
         "name": "AirPods Pro",
         "price": 65000,
         "rating": 4.7,
-        "image": "assets/images/iphone.jpeg",
-        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+        "image": "assets/images/airpordpro.jpg",
+        "description": "AirPods Pro delivers immersive sound, active noise cancellation, transparency mode, and a comfortable fit."
     },
     {
         "id": 4,
         "name": "Apple Watch",
         "price": 120000,
         "rating": 4.5,
-        "image": "assets/images/iphone.jpeg",
-        "description": "The iPhone 15 features a powerful A16 Bionic chip, advanced dual-camera system, stunning Super Retina XDR display, and all-day battery life."
+        "image": "assets/images/applewath.jpeg",
+        "description": "Apple Watch Series 9 helps you stay connected, track workouts, monitor health metrics, and manage daily activities."
     }
 ]
