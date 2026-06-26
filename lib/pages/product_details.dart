@@ -256,7 +256,6 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
     );
   }
 
-  // Sticky Lower Purchase Tray containing calculated Dynamic Pricing Totals
   Widget _buildBottomActionBar(double calculatedTotal) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
@@ -292,7 +291,6 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
             ],
           ),
 
-          // Primary Cart Insertion Trigger Button
           SizedBox(
             height: 52,
             width: MediaQuery.of(context).size.width * 0.5,
@@ -306,7 +304,6 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                 ),
               ),
               onPressed: () {
-                // Step 2: Fire the injected callback method to append current quantity state
                 widget.onAddToCart(widget.product, _quantity);
 
                 ScaffoldMessenger.of(context).showSnackBar(

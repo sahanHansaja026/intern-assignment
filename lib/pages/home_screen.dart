@@ -88,7 +88,7 @@ class _Home_ScreeenState extends State<Home_Screeen> {
     }
   }
 
-  // Filter Algorithm based on search query and selected category
+  // Filter 
   void _filterProducts() {
     final query = _searchController.text.trim().toLowerCase();
     setState(() {
@@ -273,7 +273,7 @@ class _Home_ScreeenState extends State<Home_Screeen> {
                 ),
               ),
 
-              // Cart Screen Navigator Trigger
+              // Cart Screen Navigator 
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.04),
@@ -318,7 +318,7 @@ class _Home_ScreeenState extends State<Home_Screeen> {
           ),
           const SizedBox(height: 20),
 
-          // Search Bar Textfield
+          // Search Bar 
           TextField(
             controller: _searchController,
             onChanged: (value) => _filterProducts(),
@@ -365,7 +365,7 @@ class _Home_ScreeenState extends State<Home_Screeen> {
     );
   }
 
-  // Category Selector Row
+  // Category Row
   Widget _buildCategoryRow() {
     return Container(
       height: 42,
@@ -424,7 +424,7 @@ class _Home_ScreeenState extends State<Home_Screeen> {
     );
   }
 
-  // Product Cards View Grid
+  // Product Cards View 
   Widget _buildProductGrid() {
     if (filteredProducts.isEmpty) {
       return Center(

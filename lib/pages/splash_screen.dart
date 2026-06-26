@@ -21,14 +21,14 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     // Start fade-in animation shortly after boot
-    Future.delayed(const Duration(milliseconds: 2000), () {
+    Future.delayed(const Duration(milliseconds: 200), () {
       setState(() {
         _opacity = 1.0;
       });
     });
 
     // Navigate to Home Screen after 3.5 seconds
-    Timer(const Duration(milliseconds: 30500), () {
+    Timer(const Duration(milliseconds: 3500), () {
       if (mounted) {
         Navigator.pushReplacement(
           context,
